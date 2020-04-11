@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Vybn",
+    "description": "your app desc",
+    "slug": "Vybn-app",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconnew.png",
+    "splash": {
+      "image": "./assets/splashnew.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "facebookScheme": "fb470512560158618",
+    "facebookAppId": "470512560158618",
+    "facebookDisplayName": "twiiterclone",
+    "android": {
+      "package": "com.vybn.vybn",
+      "googleServicesFile": "./tutorial/google-services.json",
+      "versionCode": 1
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vybn.vybn",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.83341535163-prftudl10n26qateb1iusu4ee5l9vs7p"
+        }
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    }
+  }
+}
