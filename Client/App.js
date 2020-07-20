@@ -62,6 +62,7 @@ export default class MainApp extends React.Component {
       loading: true
     };
   }
+  
   async componentDidMount() {
     await Font.loadAsync({
       Roboto: require("native-base/Fonts/Roboto.ttf"),
